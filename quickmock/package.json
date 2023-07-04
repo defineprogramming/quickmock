@@ -1,0 +1,23 @@
+{
+  "name": "quickmock",
+  "version": "1.0.0",
+  "description": "A command line tool that allows developers to easily create and manage mock API endpoints for their applications.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "keywords": ["api", "mock", "testing", "development"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "express": "^4.17.1",
+    "js-yaml": "^4.1.0",
+    "morgan": "^1.10.0",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
